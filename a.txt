@@ -1,3 +1,2 @@
 Git is good.
 Git is awesome.
-Git is something else.
