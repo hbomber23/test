@@ -1,0 +1,35 @@
+mkdir test
+git init
+git status
+git add a.txt
+git commit -m 'add a.txt to test folder'
+git status
+
+
+mkdir subtest
+git status
+git add .
+git status
+git commit -m 'add misc txt files'
+git log
+
+git remote add origin https://github.com/hbomber23/test.git
+git push -u origin master
+git remote -v
+git status
+git diff
+git add .
+git commit -m 'added Git is awesome to local repo in a.txt'
+git push origin master
+
+
+
+git status
+git add .
+git reset
+
+
+git status
+git add .
+git commit -m 'added 3rd line in a.txt'
+git revert HEAD
